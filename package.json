@@ -4,7 +4,6 @@
   "description": "openApi invest-bot (tinkoff platform)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "nodemon": "nodemon",
     "eslint": "eslint"
   },
@@ -18,19 +17,6 @@
     "url": "https://github.com/belnowivan/invest-bot/issues"
   },
   "homepage": "https://github.com/belnowivan/invest-bot#readme",
-  "devDependencies": {
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^25.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.20.1",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/register": "^7.8.6",
-    "nodemon": "^2.0.2"
-  },
   "dependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
@@ -38,6 +24,7 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
+    "@tinkoff/invest-openapi-js-sdk": "^1.2.3",
     "axios": "^0.19.2",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
@@ -46,5 +33,18 @@
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.1",
     "koa-router": "^8.0.8"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2"
   }
 }
