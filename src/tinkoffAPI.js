@@ -26,7 +26,11 @@ const run = async () => {
   // await api.stocks(); // method for get all actions
   // await api.bonds(); // method for get all bonds
 
+  return api.stocks();
   // const { figi } = await api.searchOne({ ticker: 'AAPL' });
 };
+
+export const getStock = () => api.stocks();
+export const getBonds = () => api.bonds();
 
 export default run;
