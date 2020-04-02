@@ -1,15 +1,13 @@
 // @ts-check
 
 // import _ from 'lodash';
+import Koa from 'koa';
+import logger from 'koa-logger';
+import Router from 'koa-router';
+import views from 'koa-views';
+import path from 'path';
+
 import { getBonds, getStock } from './tinkoffAPI';
-
-const Koa = require('koa');
-const logger = require('koa-logger');
-const Router = require('koa-router');
-const views = require('koa-views');
-const path = require('path');
-
-const router = new Router();
 
 const stockController = async (ctx) => {
   const stocks = await getStock();
@@ -27,6 +25,8 @@ const layout = async (ctx) => {
 
 export default () => {
   const app = new Koa();
+  const router = new Router();
+
   app.use(logger());
   app.use(views(path.join(__dirname, '/views'), { extension: 'pug' }));
 
