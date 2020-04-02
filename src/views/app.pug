@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Blog
+    link(rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous")
+  body
+    nav.navbar.navbar-expand.navbar-light.bg-light
+      a.navbar-brand(href="/") Jopa
+      ul.navbar-nav.mr-auto
+        li.nav-item
+          a.nav-link(href="/stock") Stock
+        li.nav-item
+          a.nav-link(href="/bonds") Bonds
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link(href="/session/new") Sign in
+          li.nav-item
+            a.nav-link(href="/users/new") Sign up
+        form.form-inline.float-xs-right(action='/session?_method=DELETE' method='post')
+          button.btn.btn-link(type='submit') Sign out
+    .container
+      .mt-1
+        block content

@@ -1,0 +1,24 @@
+extends ./app.pug
+
+block content
+  table(class="table table-sm")
+    thead
+      tr
+        //- th(scope='col') #
+        th(scope='col') figi
+        th(scope='col') ticker
+        th(scope='col') isin
+        th(scope='col') minPriceIncrement
+        th(scope='col') currency
+        th(scope='col') name
+        th(scope='col') type
+    tbody
+      for stock in stocks
+        tr
+          td= stock.figi
+          td= stock.ticker
+          td= stock.isin
+          td= stock.minPriceIncrement
+          td= stock.currency
+          td= stock.name
+          td= stock.type

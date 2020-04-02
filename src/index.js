@@ -1,29 +1,39 @@
 // @ts-check
 
 // import _ from 'lodash';
-import run from './example';
+import Koa from 'koa';
+import logger from 'koa-logger';
+import Router from 'koa-router';
+import views from 'koa-views';
+import path from 'path';
 
-const Koa = require('koa');
-const logger = require('koa-logger');
-const Router = require('koa-router');
+import { getBonds, getStock } from './tinkoffAPI';
 
-// const koaBody = require('koa-body');
-// const json = require('koa-json');
-
-const router = new Router();
-const hi = (ctx) => {
-  console.log(run());
-  ctx.response.body = 'Hi';
+const stockController = async (ctx) => {
+  const stocks = await getStock();
+  await ctx.render('stock', { stocks: stocks.instruments.slice(0, 10) });
 };
 
+const bondsController = async (ctx) => {
+  const bonds = await getBonds();
+  await ctx.render('bonds', { bonds: bonds.instruments.slice(0, 10) });
+};
+
+const layout = async (ctx) => {
+  await ctx.render('index');
+};
 
 export default () => {
   const app = new Koa();
+  const router = new Router();
+
   app.use(logger());
-  // app.use(koaBody());
-  // app.use(json());
-  console.log(run());
-  router.get('/', hi);
+  app.use(views(path.join(__dirname, '/views'), { extension: 'pug' }));
+
+  router
+    .get('/', layout)
+    .get('/stock', stockController)
+    .get('/bonds', bondsController);
 
   app.use(router.routes());
 
