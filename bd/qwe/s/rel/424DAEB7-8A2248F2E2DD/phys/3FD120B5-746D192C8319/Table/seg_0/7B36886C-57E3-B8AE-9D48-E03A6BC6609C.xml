@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="test_passages" directorySegmentName="seg_0" id="7B36886C-57E3-B8AE-9D48-E03A6BC6609C">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="updated_at" id="ACFBDC3A-A9C9-A3B3-952E-D407F26DFB29">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="B5A3AC1B-9B6E-CCF6-62EE-A7858039E451">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="successful" id="C6D544A2-D8E0-DBED-72F7-0B3EA3CF9B47">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="correct_questions" id="D5B5CFE4-E792-2E9E-2250-257034F9643A">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="user_id" id="DCA15B15-B374-0BFD-BE97-BCA4208FA6E2">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="E4699F74-F435-88E2-34D6-4A780206B5A3">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_question_id" id="E76AAB09-A407-A342-A2CC-FDCDEC19DA87">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="test_id" id="F2CF7AE4-80F6-47FB-23FB-A86FCB94A312">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_rails_1c4bb70cb0" id="50EEFA27-5BD1-29FA-1891-BC4628A270B9">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_rails_11c1f136b6" id="6A4B2FE3-1FC3-9F3D-F72A-AF468BEE2346">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_rails_57c9aa48e7" id="786F200F-DD67-F9FF-D39E-31617F9A5C2F">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="test_passages_PK" id="B19EFD57-BD9C-40A7-4656-BD3E27FA9826">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

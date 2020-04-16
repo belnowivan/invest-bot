@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3741E443-03C6-BB0A-E5DD-A760C2ED561A" name="tests">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>6CB3920B-47FF-0E60-D52A-93ECDB86D755</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="95B51550-FB0D-E54E-E3A4-C9853385B807">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>57340337-E09B-DBE2-7BF8-F10ED7F39A1A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="AE59A7F3-F5F0-4E0D-F1B8-81F7B0E3E8D3">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>362E4BF8-1A9D-747F-91FA-09DFE156A179</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9FFAE9C-2651-F04A-09A5-4EEAC4622D01</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="level" id="6F1F0A1C-6668-9615-2FA4-9B1E9A6B7946">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>1A8072C7-D478-3BB1-53EF-0CAEE773A9DC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="9C4D2BC1-1C7D-86D2-399C-2B258A9521CE">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>0D990E36-DA7F-C219-B098-94D39903BADE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C28DF39A-C7C9-E14C-1986-8E7EA0CFE1E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="5CA0E604-D62E-2A77-02A1-13ABCC54688D">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>F783FC44-4399-4A12-B615-F84EC6D5849E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C28DF39A-C7C9-E14C-1986-8E7EA0CFE1E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category_id" id="94172542-F8DF-5ABB-856E-1F8CA49FE6F1">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>2E9D9C5F-4153-6E2D-0AE9-CBF81ADFA6A2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE0DEAC5-63E4-9259-2108-DF4A6138915A" referredColumn="FB2D7D8A-D62B-2F14-BD53-93F0A8C9A993"/>
+</associations>
+</Column>
+<Column name="author_id" id="47670563-D445-A3AB-19D2-A885084C2D9B">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>B0890A9A-2267-814A-7C1C-2C3266002ADA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC34CF4B-6F45-976A-0B90-8079DDB87F08" referredColumn="85D57761-0621-E4D3-38CF-E16D188AC245"/>
+</associations>
+</Column>
+<Column name="timer" id="75798BF9-876E-E882-6C20-56C7B7F37593">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>5AFFFBA8-F2BD-5B97-3CF2-F477D5F5A2CA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B233EE7B-EEDB-D16B-9C0B-90051E68E31A" name="tests_PK">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>06A379E4-036E-B706-3AEA-C0C79C05070F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95B51550-FB0D-E54E-E3A4-C9853385B807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF70ED50-5DF4-CEB7-6F91-B4DE3629237C" name="fk_rails_cda342dc0a">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94172542-F8DF-5ABB-856E-1F8CA49FE6F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4DE4E0A-2940-0CFF-10D8-7CB8474A3069" name="fk_rails_d58c5057b2">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47670563-D445-A3AB-19D2-A885084C2D9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

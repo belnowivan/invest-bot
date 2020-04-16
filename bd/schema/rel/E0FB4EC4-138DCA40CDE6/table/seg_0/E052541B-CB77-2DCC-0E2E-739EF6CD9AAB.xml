@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E052541B-CB77-2DCC-0E2E-739EF6CD9AAB" name="questions">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>E9FD9490-7241-64AD-9BDB-A760CF86CA82</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A00EE625-32CB-0CA4-7326-AB7781934E5D">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>43812E2B-6763-F88F-B442-2679B3D920DE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="F3547FAB-2C54-2084-11F0-75A4944FFC7C">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>3D6760AC-C2FC-5770-E9FD-FFFA5034284D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="28887C3D-2D31-4CAC-DB6A-509241117EEA">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>CCCFACF4-6FDA-8D69-A98B-1A0BC04C0BB5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="24316F0D-4080-AC02-02ED-3652D6E1DD36">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>6EBE5FBB-20C6-427C-8D4E-2B909E82AD6E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="test_id" id="E3DBBF05-CD2A-E4C6-68FA-AF1C040D5273">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>FC2CC569-37ED-0A76-6E41-B5C2232AA1C7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A1E80B8-D7C1-D9EC-FCB4-C06BA12B8AE3" referredColumn="56D5F57F-D3EE-C6A8-B308-25EEF634F1BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9A47D24-096D-347C-3860-C4FD88ABBD85" name="questions_PK">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>E67E34EF-8214-8C2E-3650-1F0C6BA7D589</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A00EE625-32CB-0CA4-7326-AB7781934E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EA52AEF-0272-9BD4-D644-7D49509BE159" name="fk_rails_cb4b358d50">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3DBBF05-CD2A-E4C6-68FA-AF1C040D5273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

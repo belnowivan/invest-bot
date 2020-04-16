@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="user_bages_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="38A3A11B-BBE7-A13D-5E35-88AFADFEE3B3">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>user_bages_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="5B08D75D-1AB9-5F69-5DD8-0BD8D866E364">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>user_bages_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="6CE66ABE-7C37-4C27-12C5-E54DEE9D6F7C">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>user_bages_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="C28DF39A-C7C9-E14C-1986-8E7EA0CFE1E1">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>user_bages_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_&apos;100&apos;" id="F9FFAE9C-2651-F04A-09A5-4EEAC4622D01">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>&apos;100&apos;</dataTypeSize>
+<fileName>user_bages_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

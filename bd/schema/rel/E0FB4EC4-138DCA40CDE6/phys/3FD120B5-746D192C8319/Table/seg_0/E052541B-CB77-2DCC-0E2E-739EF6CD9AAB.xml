@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="questions" directorySegmentName="seg_0" id="E052541B-CB77-2DCC-0E2E-739EF6CD9AAB">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="updated_at" id="24316F0D-4080-AC02-02ED-3652D6E1DD36">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="28887C3D-2D31-4CAC-DB6A-509241117EEA">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="A00EE625-32CB-0CA4-7326-AB7781934E5D">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="test_id" id="E3DBBF05-CD2A-E4C6-68FA-AF1C040D5273">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="title" id="F3547FAB-2C54-2084-11F0-75A4944FFC7C">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_rails_cb4b358d50" id="7EA52AEF-0272-9BD4-D644-7D49509BE159">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="questions_PK" id="D9A47D24-096D-347C-3860-C4FD88ABBD85">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

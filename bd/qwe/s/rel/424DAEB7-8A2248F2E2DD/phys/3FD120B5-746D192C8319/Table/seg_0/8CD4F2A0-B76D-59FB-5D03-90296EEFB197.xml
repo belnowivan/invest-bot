@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="users_badges" directorySegmentName="seg_0" id="8CD4F2A0-B76D-59FB-5D03-90296EEFB197">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="user_id" id="2D4EA2F5-B870-7F8D-2E3E-264B35C02821">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="39D9CB93-9FD9-809A-7094-74E4FDE1FA4D">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="B6615A2F-0C21-E0C8-E1E1-D3CBFBAFD45A">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="updated_at" id="B87A78F5-AF95-9AD9-27E5-CF669AC748D4">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="badge_id" id="D5218292-745D-40C3-132C-E2B5049863AE">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_rails_3b48e1eb65" id="027BCFBE-2B69-BE4E-225F-4549C8E01186">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_rails_b366c671bb" id="F276200F-C3F8-C60C-016B-283EE003F9D2">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="users_badges_PK" id="FE4A0251-BC4C-F1B8-8201-B7B57A4E0602">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

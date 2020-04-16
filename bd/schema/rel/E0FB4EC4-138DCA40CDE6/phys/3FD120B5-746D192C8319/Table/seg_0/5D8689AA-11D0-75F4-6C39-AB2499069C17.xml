@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="gists" directorySegmentName="seg_0" id="5D8689AA-11D0-75F4-6C39-AB2499069C17">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="user_id" id="27377B31-B74B-C6D5-44C8-CD089B2FC162">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="3F4DF808-C668-AAAE-FF07-E5FBDC98CC21">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="url" id="B1B19D18-A0E4-0DC2-A651-5F77EF25FD8C">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="question_id" id="F847127B-52BD-914D-0CC0-C24049E9C5B5">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_rails_6038c85e3c" id="43219A59-B201-0199-8C92-90B033DBAE25">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="gists_PK" id="53F6080F-EFD1-04D0-8ABC-524079C53A04">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

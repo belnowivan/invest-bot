@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E69A966F-B364-9778-577E-16C00BAE9106" name="users_badges">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>0F24ED5C-ECC7-123A-5C65-9AD1C9474721</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7BC98659-745A-8272-10D5-8E3C8077C344">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>AE976067-6D44-7163-D58F-8BFD5C9E8AD8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B07555F1-3F91-EC40-FBDB-9BBF212F1B74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="badge_id" id="21AC0D51-5FA0-3FFA-4ADE-33F0D431A5A6">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>D0D1F185-A265-4790-09C5-F785E6AF5976</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B07555F1-3F91-EC40-FBDB-9BBF212F1B74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="91F875C6-E110-EEC8-9A2F-EB1743C71284">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>B320919C-0C30-32C8-A8E5-3CE9E7FE028D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B07555F1-3F91-EC40-FBDB-9BBF212F1B74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="5F2B1277-A2E0-A72B-8B1A-0329D43AC671">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>2CD7B179-580C-90F0-7B89-DF3D949E1D9C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="DCC36F4E-62D1-3074-7062-AB6D1070F086">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>F621F6D9-2E6A-381F-1FFD-10AAB0CFBE91</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41AB6E8A-C315-615E-20C9-4733BA45A358" name="users_badges_PK">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:12:17 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>FC065A3C-5B22-2203-E4A2-C482AAA2B0E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BC98659-745A-8272-10D5-8E3C8077C344"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

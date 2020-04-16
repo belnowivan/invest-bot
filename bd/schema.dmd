@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="schema" id="81981E5A-8C28-1D76-7A9F-A905C9019083" version="3.5">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 20:12:08 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>81981E5A-8C28-1D76-7A9F-A905C9019083</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E873A0D6-C47B-A115-0378-E91B638DC4D9">
+<designStoragePath>/user_bages</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="54FB5302-907F-DC57-9909-301C7AC5030D">
+<designStoragePath>/user_bages</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D165AF11-F4E1-B8CE-29E3-0EA3CF0641CE">
+<designStoragePath>/user_bages</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="92F3727A-9F4A-3642-E9FE-682380BC871D">
+<designStoragePath>/user_bages</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

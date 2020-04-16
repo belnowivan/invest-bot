@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B36886C-57E3-B8AE-9D48-E03A6BC6609C" name="test_passages">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>F04CDB44-6CBC-9BF0-D09C-1B3F72A69072</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E4699F74-F435-88E2-34D6-4A780206B5A3">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>76655D6E-B808-B4DA-3D79-5876B469685E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="DCA15B15-B374-0BFD-BE97-BCA4208FA6E2">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>4C524F2C-922F-5482-54D0-0AB9D595946D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E075171-7BB8-4721-7386-EA88441289AC" referredColumn="85D57761-0621-E4D3-38CF-E16D188AC245"/>
+</associations>
+</Column>
+<Column name="test_id" id="F2CF7AE4-80F6-47FB-23FB-A86FCB94A312">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>55BC5D51-5B60-5BA1-A9CC-DF4DAC9535BE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F004BE7C-9160-53D9-899B-90B9D7BA17B1" referredColumn="95B51550-FB0D-E54E-E3A4-C9853385B807"/>
+</associations>
+</Column>
+<Column name="current_question_id" id="E76AAB09-A407-A342-A2CC-FDCDEC19DA87">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>2E56F0B5-EF5E-4E55-9293-1B66715BF116</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95D5014A-52F6-A21C-9599-DA7CA3F2F127" referredColumn="D63A0474-5CC8-DD1B-1B6C-36F14DB06714"/>
+</associations>
+</Column>
+<Column name="correct_questions" id="D5B5CFE4-E792-2E9E-2250-257034F9643A">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>FEC48E7C-890A-D4DC-DE09-A8D5F1E8BF83</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="B5A3AC1B-9B6E-CCF6-62EE-A7858039E451">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>3B7412A5-E9EE-4D3E-C4F5-8234E77D3295</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C28DF39A-C7C9-E14C-1986-8E7EA0CFE1E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="ACFBDC3A-A9C9-A3B3-952E-D407F26DFB29">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>47B799FB-38A0-F9C3-238A-D0D0D88942A7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C28DF39A-C7C9-E14C-1986-8E7EA0CFE1E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="successful" id="C6D544A2-D8E0-DBED-72F7-0B3EA3CF9B47">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>C95E5DD5-9B1D-04CC-8DBF-B5848A1E4316</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6CE66ABE-7C37-4C27-12C5-E54DEE9D6F7C</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B19EFD57-BD9C-40A7-4656-BD3E27FA9826" name="test_passages_PK">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>A8ED90A6-F565-FFE1-EF0C-7A7E0CA0CECE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4699F74-F435-88E2-34D6-4A780206B5A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A4B2FE3-1FC3-9F3D-F72A-AF468BEE2346" name="fk_rails_11c1f136b6">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA15B15-B374-0BFD-BE97-BCA4208FA6E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50EEFA27-5BD1-29FA-1891-BC4628A270B9" name="fk_rails_1c4bb70cb0">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76AAB09-A407-A342-A2CC-FDCDEC19DA87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="786F200F-DD67-F9FF-D39E-31617F9A5C2F" name="fk_rails_57c9aa48e7">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:48 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2CF7AE4-80F6-47FB-23FB-A86FCB94A312"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

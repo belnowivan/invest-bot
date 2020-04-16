@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="qwe" id="2EA500AB-0C24-5BCB-BFC6-310AA423D740" version="3.5">
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:24:39 UTC</createdTime>
+<ownerDesignName>qwe</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2EA500AB-0C24-5BCB-BFC6-310AA423D740</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FF6E66C8-BF1B-8DE4-A44D-F630E3631F72">
+<designStoragePath>/user_bages</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="678A887B-04F9-0916-EE7B-209194B8000F">
+<designStoragePath>/user_bages</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

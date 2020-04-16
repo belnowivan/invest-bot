@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="1E281BC6-E6BB-B069-4DAD-A0346B5FE99B" name="tests" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="357FF30D-C7F8-F911-CAD8-C5FDFCBCFB67" name="badges" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="36C0A15C-99C5-3B46-2CA9-0AB0F2BD3980" name="categories" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="5D8689AA-11D0-75F4-6C39-AB2499069C17" name="gists" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="82928E1A-68EC-DE6E-3E01-3B1834AF7E1C" name="answers" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="C15027B0-F030-142A-EBD3-96FE4EE98053" name="users" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="E052541B-CB77-2DCC-0E2E-739EF6CD9AAB" name="questions" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+   <object objectType="Table" objectID="E69A966F-B364-9778-577E-16C00BAE9106" name="users_badges" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" propertyParentId="32076570-BF29817DFF70"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

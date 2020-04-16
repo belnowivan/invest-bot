@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3ADE089-4883-D19A-A951-EF9A21CA8D38" name="badges">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>B5558F3F-4232-8F85-0507-83D3BB7DE5EB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="18D1FCE1-6368-4FDF-19A2-1E65DD3CA92F">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>15E5E698-656F-939A-1C5A-3E3F8048DAF0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5B08D75D-1AB9-5F69-5DD8-0BD8D866E364</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="name" id="5F8C334B-2892-8A64-7C87-39C24E44F622">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>E16EE097-BB73-89C4-7611-8A099AE9C446</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9FFAE9C-2651-F04A-09A5-4EEAC4622D01</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="picture_file" id="4B86359A-C7F2-5AFC-B312-A52DB6579784">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>9B729904-0A5E-AD52-E7A9-865A73F22D12</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9FFAE9C-2651-F04A-09A5-4EEAC4622D01</domain>
+<defaultValue>&apos;badge.jpg&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rule_name" id="52C1E032-46FC-A2EE-249F-37ADC9E673E3">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>610151B3-8F50-7B8C-C522-50E964593AC3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9FFAE9C-2651-F04A-09A5-4EEAC4622D01</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rule_parameter" id="B8521626-D5EA-B251-2904-F505A2CE2C11">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>E5DFA59D-CDE8-DB1E-B005-AF3440C490FD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9FFAE9C-2651-F04A-09A5-4EEAC4622D01</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="B5A4EC43-9D24-8AEE-96C8-67CD1A7D6A3C">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>A5B258B4-25DC-EBDC-8E61-F6940D4D47CD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C28DF39A-C7C9-E14C-1986-8E7EA0CFE1E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="FF5A6D3C-9869-57EE-2923-CDF6E61F55B3">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>A7FA9143-861F-1381-A76E-E397660AFB37</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C28DF39A-C7C9-E14C-1986-8E7EA0CFE1E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B78A2336-92C9-17C8-4AED-20867F97629A" name="badges_PK">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>root</createdBy>
+<createdTime>2020-01-17 10:25:47 UTC</createdTime>
+<ownerDesignName>s</ownerDesignName>
+<importedID>C0CECDCA-2020-A87D-A760-31AD3A3F6E64</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18D1FCE1-6368-4FDF-19A2-1E65DD3CA92F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

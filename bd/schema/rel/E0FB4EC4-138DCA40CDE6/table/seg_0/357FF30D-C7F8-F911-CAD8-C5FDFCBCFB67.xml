@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="357FF30D-C7F8-F911-CAD8-C5FDFCBCFB67" name="badges">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>7D2E33C1-E9D1-14FE-5070-3C1A2C640FD6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EFE55886-B577-D743-C6D6-E5DBC376B988">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>586E1A92-49B4-D205-D1B8-8682AEDD3468</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="name" id="7B5D5D9F-1ECD-5438-297F-0A7D646E7530">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>DD03BE85-6C09-C3B9-B315-FBA7AA10852B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="picture_file" id="0A5FB9C3-A93A-E917-6473-32E700B4CF9A">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>93443760-B0C8-B1C0-C0D1-F0E455E36CC2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<defaultValue>&apos;badge.jpg&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rule_name" id="7C268660-05F5-01B1-11B4-B1DA0A3E62A6">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>D56738F6-63FC-C55B-65DC-D694B0B9BDDC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rule_parameter" id="6616DE58-6CA3-2DFC-FAF2-D2BF8729E6C3">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>40D1F714-2FB8-DB49-98B4-6E839EF85E74</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="075B07CD-B9FD-ECC2-3D38-E39EEE6884A2">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>B274E38E-77A3-0954-F9E2-F7A5748D1BF2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="B914B29C-33DF-7CC2-02CD-7DA1327C235D">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>245EC280-D64D-9825-730D-14F8840A982F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

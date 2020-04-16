@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="users_badges" directorySegmentName="seg_0" id="E69A966F-B364-9778-577E-16C00BAE9106">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="badge_id" id="21AC0D51-5FA0-3FFA-4ADE-33F0D431A5A6">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="5F2B1277-A2E0-A72B-8B1A-0329D43AC671">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="7BC98659-745A-8272-10D5-8E3C8077C344">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_id" id="91F875C6-E110-EEC8-9A2F-EB1743C71284">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="updated_at" id="DCC36F4E-62D1-3074-7062-AB6D1070F086">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="users_badges_PK" id="41AB6E8A-C315-615E-20C9-4733BA45A358">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:12:17 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

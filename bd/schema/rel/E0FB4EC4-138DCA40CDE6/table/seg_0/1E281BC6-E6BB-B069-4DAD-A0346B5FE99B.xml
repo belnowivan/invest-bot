@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E281BC6-E6BB-B069-4DAD-A0346B5FE99B" name="tests">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>A940E346-AFA3-9210-D4A6-95D4B6F277F4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="56D5F57F-D3EE-C6A8-B308-25EEF634F1BA">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>BE8B2650-B7DD-D268-D17F-9ECD96065A3F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="98CC7AE7-C41B-838B-061F-81C11EF1E8C2">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>1995F266-D861-5EBD-27C7-864DE0F8E46F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="level" id="AD0BD888-2B69-3F6D-43F3-4C24B8F0998E">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>448BDA19-66FB-4AA4-B0C4-FCD8F7A708E6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="771F635C-17CE-88B8-3C5F-F30C11186A29">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>FEA122B1-FA1B-4EDE-E522-1A9E0C06E272</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="EABFD02A-84A2-B02C-D834-D7A1E2346006">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>96F69793-FB71-0D86-C59F-794AC3CE2D9F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category_id" id="2932627C-47FE-9F92-9FC5-62BCC6B73AEE">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>DDECFBB3-2DE0-3FBC-BDA0-34F68FAAA1B3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_id" id="C399B498-A553-3FC3-8966-C9E5441BF865">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>232E212F-BDF8-A468-D579-7E2D1C0B3207</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timer" id="18B3368C-C738-61F0-0910-68B1E2827FBC">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>BC84659C-3CD6-4AA9-5346-4064E839286A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39C643C0-B4F8-DB26-B7B1-CFB44A0D0376" name="tests_PK">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>4D1753F5-4CE7-99CD-7A41-25E3F42F4555</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56D5F57F-D3EE-C6A8-B308-25EEF634F1BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

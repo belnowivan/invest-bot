@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="badges" directorySegmentName="seg_0" id="357FF30D-C7F8-F911-CAD8-C5FDFCBCFB67">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="created_at" id="075B07CD-B9FD-ECC2-3D38-E39EEE6884A2">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="picture_file" id="0A5FB9C3-A93A-E917-6473-32E700B4CF9A">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<defaultValue>&apos;badge.jpg&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="rule_parameter" id="6616DE58-6CA3-2DFC-FAF2-D2BF8729E6C3">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="7B5D5D9F-1ECD-5438-297F-0A7D646E7530">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rule_name" id="7C268660-05F5-01B1-11B4-B1DA0A3E62A6">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="updated_at" id="B914B29C-33DF-7CC2-02CD-7DA1327C235D">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="EFE55886-B577-D743-C6D6-E5DBC376B988">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:58:59 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

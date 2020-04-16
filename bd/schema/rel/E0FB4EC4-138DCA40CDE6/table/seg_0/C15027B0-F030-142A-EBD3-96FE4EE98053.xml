@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C15027B0-F030-142A-EBD3-96FE4EE98053" name="users">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>CFE04F84-9973-8181-E543-6FC9541266CE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1543C4FF-3C57-EAEF-FBE1-3D8FC99ADE41">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>3084EAED-65AE-670A-9B46-D4E92CD54AD2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>614EB670-D38E-AC8D-80AC-C62EBE2194AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="created_at" id="4093FB31-DF4C-3760-24FC-D645606DE488">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>2DF04383-12E0-5679-239B-0AF787317DB4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="1243DA17-A693-4D20-83FC-D30DDC51E26B">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>7E06DC04-65BF-2BEA-8B29-592A4726713E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="BD85997F-A84A-E318-77A4-42E3E5432F3E">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>6B7D2826-929D-B452-1B04-913153F0E4DF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<defaultValue>&apos;&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="encrypted_password" id="F46500F1-5EF8-24DE-D07F-B9A780CD1358">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>2F36138F-E5E5-E189-8CAE-5C481EF73B03</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<defaultValue>&apos;&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reset_password_token" id="FCBC970C-BAC2-3771-02F6-CD2D96E44B62">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>00EF8EEA-DE70-7F10-7609-36E756800F82</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reset_password_sent_at" id="1EF2ACD8-0F87-4D5D-08F5-9054A3FA7585">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>DF8EDE06-C575-21DA-4EA9-D1B89B50277C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="remember_created_at" id="B1061565-52AC-288F-CE37-783B79AEACB9">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>014DC77E-75B6-02E5-EBD7-9772CE6BCBE4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="confirmation_token" id="DFC6EB29-C9B7-E793-84DA-B0AD915FE839">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>AFE92F09-1831-5C31-0986-E3514F435A6E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="confirmed_at" id="78013A43-E7D4-DBAF-9DA5-5A4D61528ADF">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>90254371-672A-E05F-5C39-9BC7B8255A41</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="confirmation_sent_at" id="7523EDB6-F637-AEC1-8094-5E7EBCCA5C8B">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>1BF78397-29AB-8AED-6CC5-B0326D4BE3A8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C2FCCAE-6E08-E287-0104-BD6D9EDD307E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unconfirmed_email" id="B1268C90-92DC-D7FE-F4C8-5C0924F48524">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>FA306FF3-A552-CA64-1956-40F1AB0556D9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="F24FF808-A324-D24E-CFBF-696B184CAB8E">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>DEC2E11C-5AC2-24C6-259C-754D45129896</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<defaultValue>&apos;User&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="D4F2098A-ECC4-95CB-419B-558BE3449BA1">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>BF61F41A-636E-0577-7737-C083ECAF4014</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="30334B4A-0150-CBF0-3335-60AA97DA46A5">
+<sourceDDLFile>user_bages.sql</sourceDDLFile>
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<importedID>1830D36F-9A74-12C7-7FC5-3FDC9242053E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7BB22698-B0F0-F5C9-37D2-9917385795F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

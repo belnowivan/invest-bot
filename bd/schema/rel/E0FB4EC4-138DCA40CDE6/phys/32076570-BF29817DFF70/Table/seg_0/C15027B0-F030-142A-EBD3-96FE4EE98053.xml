@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="users" directorySegmentName="seg_0" id="C15027B0-F030-142A-EBD3-96FE4EE98053">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="updated_at" id="1243DA17-A693-4D20-83FC-D30DDC51E26B">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="1543C4FF-3C57-EAEF-FBE1-3D8FC99ADE41">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="reset_password_sent_at" id="1EF2ACD8-0F87-4D5D-08F5-9054A3FA7585">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="30334B4A-0150-CBF0-3335-60AA97DA46A5">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="4093FB31-DF4C-3760-24FC-D645606DE488">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="confirmation_sent_at" id="7523EDB6-F637-AEC1-8094-5E7EBCCA5C8B">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="confirmed_at" id="78013A43-E7D4-DBAF-9DA5-5A4D61528ADF">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="remember_created_at" id="B1061565-52AC-288F-CE37-783B79AEACB9">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="unconfirmed_email" id="B1268C90-92DC-D7FE-F4C8-5C0924F48524">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="BD85997F-A84A-E318-77A4-42E3E5432F3E">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<defaultValue>&apos;&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="D4F2098A-ECC4-95CB-419B-558BE3449BA1">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="confirmation_token" id="DFC6EB29-C9B7-E793-84DA-B0AD915FE839">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="type" id="F24FF808-A324-D24E-CFBF-696B184CAB8E">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<defaultValue>&apos;User&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="encrypted_password" id="F46500F1-5EF8-24DE-D07F-B9A780CD1358">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<defaultValue>&apos;&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="reset_password_token" id="FCBC970C-BAC2-3771-02F6-CD2D96E44B62">
+<createdBy>ivan</createdBy>
+<createdTime>2020-01-16 21:06:47 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>
